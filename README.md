@@ -32,17 +32,17 @@ To import into your file, use the code snippet on the website for your chosen ic
 
 ## Express
 ```
-Open a terminal
-Enter your desired folder
-mkdir file name to create your nodejs/express project
-cd into that nodejs project
-use git init and yarn init to 
-make your folder a node project and a git repo
-touch .env .gitignore
-open folder in vscode
-update gitignore file to have both `node_modules and `.env` in your .gitignore ( This has to be done 100% correctly) do not make a commit until this has been done correctly
-yarn add express mongoose dotenv
-create your scripts object in pacakage.json (see below)
+1. Open a terminal
+2. Enter your desired folder
+3. mkdir file name to create your nodejs/express project
+4. cd into that nodejs project
+5. use git init and yarn init to 
+6. make your folder a node project and a git repo
+7. touch .env .gitignore
+8. open folder in code editor (vscode)
+9. update gitignore file to have both `node_modules and `.env` in your .gitignore ( This has to be done 100% correctly) do not make a commit until this has been done correctly
+10. yarn add express mongoose dotenv
+11. create your scripts object in pacakage.json (see below)
 - Scripts Object
 
   "scripts": {
@@ -50,12 +50,12 @@ create your scripts object in pacakage.json (see below)
     "dev": "nodemon server.js"
   },
   
-If you want to create user auth then...
+12. If you want to create user auth then...
 yarn add jsonwebtoken
 yarn add bcryptjs
 import then into your index.js
   
-Start coding your project
+13. Start coding your project
 ```
 
 
