@@ -3,29 +3,29 @@
 ## React
 ```
 in terminal...
-npx create-react-app (app name)
-cd into the app 
-yarn add react-router react-router-dom 
+1. npx create-react-app (app name)
+2. cd into the app 
+3. yarn add react-router react-router-dom 
 
-code . in terminal to open the app
+4. code . in terminal to open the app
 this will get the basics set up
 
 in your app.js at the top put:
-import React, {useEffect, useState} from 'react';
-import { BrowserRouter or HashRouter as Router, Link, Switch, Route} from 'react-router-dom';
+5. import React, {useEffect, useState} from 'react';
+6. import { BrowserRouter or HashRouter as Router, Link, Switch, Route} from 'react-router-dom';
 
-in index.js: import { BrowserRouter as Router } from 'react-router-dom';
-in index.js: wrap the <App /> in <Router></ Router>
+7. in index.js: import { BrowserRouter as Router } from 'react-router-dom';
+8. in index.js: wrap the <App /> in <Router></ Router>
 
 #### Generate Unique Ids
-yarn add uuid
-import { v4 as uuid } from 'uuid';
+9. yarn add uuid
+10. import { v4 as uuid } from 'uuid';
   ex:
   const newID = uuid()
   key={uuid()}
   
 #### React-Icons
-npm install react-icons --save
+11. npm install react-icons --save
 To import into your file, use the code snippet on the website for your chosen icons
 ```
 
